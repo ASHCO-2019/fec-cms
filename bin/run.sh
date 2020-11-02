@@ -7,7 +7,7 @@ else
     exit 1
 fi
 # Set environment options to exit immediately if a non-zero status code
-# appears from a command or within a pipe
+# appears from a command or within a pipe 
 set -o errexit
 set -o pipefail
 
